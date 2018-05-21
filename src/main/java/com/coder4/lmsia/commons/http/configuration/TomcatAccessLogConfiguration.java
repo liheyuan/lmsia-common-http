@@ -13,8 +13,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 /**
  * @author coder4
  */
-@ConditionalOnWebApplication
 @Configuration
+@ConditionalOnWebApplication
 public class TomcatAccessLogConfiguration
         extends WebMvcConfigurerAdapter implements EmbeddedServletContainerCustomizer {
 

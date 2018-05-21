@@ -9,7 +9,7 @@ targetCompatibility = 1.8
 // Use as maven groupId/artifactId/version
 group = 'com.coder4.lmsia'
 project.archivesBaseName = 'commons-http'
-project.version = '0.0.1'
+project.version = '0.0.2'
 
 // source & javadoc pom
 task sourcesJar(type: Jar, dependsOn: classes) {
@@ -29,6 +29,7 @@ dependencies {
     compileOnly 'ch.qos.logback:logback-classic:1.2.3'
     compileOnly 'org.springframework.boot:spring-boot-starter-web:1.5.6.RELEASE'
     compileOnly 'org.springframework.boot:spring-boot-autoconfigure:1.5.6.RELEASE'
+    compileOnly 'org.springframework.boot:spring-boot-actuator:1.5.6.RELEASE'
 
     testCompile 'junit:junit:4.12'
 }

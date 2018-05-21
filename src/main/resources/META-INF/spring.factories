@@ -1,1 +1,3 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.coder4.lmsia.commons.http.configuration.TomcatAccessLogConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.coder4.lmsia.commons.http.configuration.TomcatAccessLogConfiguration,\
+com.coder4.lmsia.commons.indicator.configuration.GracefulShutdownHealthIndicatorConfiguration
