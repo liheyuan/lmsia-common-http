@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 /**
  * @author coder4
  */
-@ResponseStatus(HttpStatus.CONFLICT)
-public class Http409ConflictException extends RuntimeException {
+@ResponseStatus(HttpStatus.TOO_MANY_REQUESTS)
+public class Http429TooManyRequestsException extends RuntimeException {
 }
